@@ -12,7 +12,7 @@ Ajettu erilaisia tarkistuksia ryhti datalle.
   - MML Väestötietojärjestelmän rakennustietokannasta, https://www.maanmittauslaitos.fi/palvelutiedotteet/rakennusten-kyselypalvelu-ogc-api-features-poistuu-kaytosta-kevaalla-2025
   - MML Maastotietokannan rakennus ja rakennelma -tietokannasta
   - Väyläviraston viitekehysmuuntimella on haettu rakennuksille osoite.
-  - MML Inspire kuntadata
+  - MML Inspire kuntadata ja kiinteistödata
  
 - korjaustiedot on ajettu seuraavasti:
   1) Koordinaatin perusteella mätsätty ryhti koordinaatti MML maastotietokannan rakennuksiin (2566007 kpl)
