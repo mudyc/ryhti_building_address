@@ -23,7 +23,7 @@ Ajettu erilaisia tarkistuksia ryhti datalle.
   6. Koordinaatin perusteella lohkottu kiinteistö, entinen kiinteistö löytyy läheltä. Heuristinen arvaus lähimmästä rakennuksesta (2´257 kpl)
   7. Koordinaatin perusteella kiinteistö löytyy läheltä (6`401 kpl)
   8. Suodatettu tuulivoimalat pois (1´141 kpl)
-  9. Kerätty loput käsintarkistettaviksi:
+  9. Kerätty loput käsintarkistettaviksi. Nämä löytyvät aineistosta errata.manual_fix_needed:
       a. Osoitteettomat (7´530 kpl)
       b. Rakennus purettu? (3´435 kpl)
       c. Muut (19´064 kpl)
