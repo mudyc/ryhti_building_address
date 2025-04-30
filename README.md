@@ -37,6 +37,8 @@ koodilla pyrittiin yhdistämään MML maastotietokannan rakennustieto (esim. kä
 https://xml.nls.fi/XML/Schema/Maastotietojarjestelma/MTK/202203/Koodistot/RakennuksenKayttotarkoitus.xsd) 
 ja rakennuksen pohja-ala SyKe Ryhti rakennustietoon.
 
+
+```
 function probabilityMatchScore(feature, candidate) {
     function mapMainPurpose(uri) {
         if (!uri) return null;
@@ -87,6 +89,6 @@ function findMostProbableMatch(feature, candidates) {
     scored.sort((a, b) => b.score - a.score); // suurin todennäköisyys ensin
     return scored[0]; // paras ehdokas
 }
-
+```
 
 
