@@ -13,6 +13,7 @@ Ajettu erilaisia tarkistuksia ryhti datalle.
   - MML Maastotietokannan rakennus ja rakennelma -tietokannasta
   - Väyläviraston viitekehysmuuntimella on haettu rakennuksille osoite.
   - MML Inspire kuntadata ja kiinteistödata
+  - Tilastokeskukselta postinumeroalueet merialueineen
  
 - korjaustiedot on ajettu seuraavasti. Tässä ongelmana on, että mihinkään tietoon ei voi luottaa. Osa koordinaateista ihan höpöä. Osa kiinteistötiedoista höpöä. Lähdetty purkamaan tilannetta niin, että pysyvä rakennustunnus on oletettu oikeaksi. Tämän jälkeen rakennuksen osoite (viitekehysmuuntimesta). Sitten kiinteistötunnus (jos kiinteistöltä löytyy rakennuksia). Tämän jälkeen palattu koordinaatin lähietsintöihin.
   1. Koordinaatin perusteella mätsätty ryhti koordinaatti MML maastotietokannan rakennuksiin (2´566´007 kpl)
@@ -27,6 +28,7 @@ Ajettu erilaisia tarkistuksia ryhti datalle.
       a. Osoitteettomat (7´530 kpl)
       b. Rakennus purettu? (3´435 kpl)
       c. Muut (19´064 kpl)
+  10. Kerätty postinumerokorjaukset tilastokeskuksen postinumeroalueiden perusteella tiedostoon errata.postal (131´132 kpl)
 
 
 # Heuristinen mätsäys kiinteistön sisällä
@@ -57,7 +59,7 @@ function probabilityMatchScore(feature, candidate) {
     }
 
     const distance = pointToObjectDistance(feature, candidate);
-    const distanceProb = Math.exp(-distance / 100); // mitä lähempänä, sitä parempi
+    const distanceProb = Math.exp(-distance / 500); // mitä lähempänä, sitä parempi
   
     const featurePurpose = mapMainPurpose(feature.properties.main_purpose);
     const purposeProb = candidate.kayttotarkoitus === featurePurpose ? 1: 0;
