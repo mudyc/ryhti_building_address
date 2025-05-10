@@ -11,7 +11,7 @@ Ajettu erilaisia tarkistuksia ryhti datalle.
   - SyKe ryhti building ja address aineisto
   - MML Väestötietojärjestelmän rakennustietokannasta, https://www.maanmittauslaitos.fi/palvelutiedotteet/rakennusten-kyselypalvelu-ogc-api-features-poistuu-kaytosta-kevaalla-2025
   - MML Maastotietokannan rakennus ja rakennelma -tietokannasta
-  - Väyläviraston viitekehysmuuntimella on haettu rakennuksille osoite.
+  - Väyläviraston viitekehysmuuntimella on haettu rakennuksille osoite. Tämä on melko todennäköisesti väärä. Saisikohan MML:ltä tarkempaa?
   - MML Inspire kuntadata ja kiinteistödata
   - Tilastokeskukselta postinumeroalueet merialueineen
  
@@ -30,6 +30,20 @@ Ajettu erilaisia tarkistuksia ryhti datalle.
       c. Muut (19´064 kpl)
   10. Kerätty postinumerokorjaukset tilastokeskuksen postinumeroalueiden perusteella tiedostoon errata.postal (131´132 kpl)
 
+# Ongelmakentän avartamisesta
+
+Tämä on ilmeisesti matolaatikko jota kukaan ei oikeasti halua välttämättä korjata.
+
+Meillä on useita toimijoita joita nämä rakennustiedot kiinnostavat
+- Väestötietojärjestelmä lakkautetaan, mutta se oli linkki rakennuksen muotoon (kartalla)
+- Mittalaitoksen rakennus kartalla on toki olemassa, mutta siihen liittyy seuraavanlaisia huomioita:
+    - Rakennus on kuvattu ylhäältä päin, jolloin siihen liitetty talousrakennus tai autotalli ei näy omana rakennuksenaan.
+    - Vastaavasti ylhäältä kuvantamisen seuraus on, ettei kiinteistö leikkaannu kiinteistörajalla.
+- Verottaja kerää kiinteistöverot rakennustiedon perusteella. Verottajan mielestä oikeiden tietojen antamisesta vastaa verotettava.
+- Kunnat keröövöt rakennuksista rakennusvalvonnan perusteella tietoa.
+    - Mahdollisesti samaan fyysiseen rakennukseen on useita rakennustunnuksia, jos rakennusta on myöhemmin esim. laajennettu.
+    - Toisaalta rakennus voi olla purettu ja rakennettu tilalle uusi rakennus niin, että molemmat rakennustunnukset jäävät voimaan.
+- Suomen Ympäristökeskuksen vastuulla on tiedon jakaminen. Sillä ei sinänsä ole intressiä tiedon oikeellisuuden suhteen.
 
 # Heuristinen mätsäys kiinteistön sisällä
 
