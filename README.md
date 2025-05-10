@@ -40,7 +40,7 @@ Meillä on useita toimijoita joita nämä rakennustiedot kiinnostavat
     - Rakennus on kuvattu ylhäältä päin, jolloin siihen liitetty talousrakennus tai autotalli ei näy omana rakennuksenaan.
     - Vastaavasti ylhäältä kuvantamisen seuraus on, ettei kiinteistö leikkaannu kiinteistörajalla.
 - Verottaja kerää kiinteistöverot rakennustiedon perusteella. Verottajan mielestä oikeiden tietojen antamisesta vastaa verotettava.
-- Kunnat keröövöt rakennuksista rakennusvalvonnan perusteella tietoa.
+- Kunnat keräävät rakennuksista rakennusvalvonnan perusteella tietoa.
     - Mahdollisesti samaan fyysiseen rakennukseen on useita rakennustunnuksia, jos rakennusta on myöhemmin esim. laajennettu.
     - Toisaalta rakennus voi olla purettu ja rakennettu tilalle uusi rakennus niin, että molemmat rakennustunnukset jäävät voimaan.
 - Suomen Ympäristökeskuksen vastuulla on tiedon jakaminen. Sillä ei sinänsä ole intressiä tiedon oikeellisuuden suhteen.
