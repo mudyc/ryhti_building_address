@@ -10,10 +10,12 @@ Ajettu erilaisia tarkistuksia ryhti datalle.
 - errata tiedostot ovat muodostuneet useasta aineistosta.
   - SyKe ryhti building ja address aineisto
   - MML Väestötietojärjestelmän rakennustietokannasta, https://www.maanmittauslaitos.fi/palvelutiedotteet/rakennusten-kyselypalvelu-ogc-api-features-poistuu-kaytosta-kevaalla-2025
-      Rakennustietokanta perustuu Digi- ja väestötietoviraston ylläpitämän väestötietojärjestelmän (VTJ) tietoihin.
+      - Rakennustietokanta perustuu Digi- ja väestötietoviraston ylläpitämän väestötietojärjestelmän (VTJ) tietoihin.
       VTJ:n aineisto on ns. kokonaisaineisto, joka kattaa Suomen koko väestön ja kaikki rakennukset.
       Tilastokeskus tuottaa tämän tietojärjestelmän tiedoista väestö-, rakennus- ja asuntotilastot.
   - MML Maastotietokannan rakennus ja rakennelma -tietokannasta
+      - Maanmittauslaitoksen Maastotietokannan (MTK) rakennustietoja​​ koko maasta.
+        Aineisto sisältää rakennusten aluegeometriat, joiden pohjapinta-ala on yli 10 m2.
   - Väyläviraston viitekehysmuuntimella on haettu rakennuksille osoite. Tämä on melko todennäköisesti väärä. Saisikohan MML:ltä tarkempaa?
   - MML Inspire kuntadata ja kiinteistödata
   - Tilastokeskukselta postinumeroalueet merialueineen
