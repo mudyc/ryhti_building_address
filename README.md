@@ -47,6 +47,8 @@ Meillä on useita toimijoita joita nämä rakennustiedot kiinnostavat
     - Mahdollisesti samaan fyysiseen rakennukseen on useita rakennustunnuksia, jos rakennusta on myöhemmin esim. laajennettu.
     - Toisaalta rakennus voi olla purettu ja rakennettu tilalle uusi rakennus niin, että molemmat rakennustunnukset jäävät voimaan.
 - Suomen Ympäristökeskuksen vastuulla on tiedon jakaminen. Sillä ei sinänsä ole intressiä tiedon oikeellisuuden suhteen.
+- Mittalaitoksen katunumerot ilmeisesti jollain muotoa lasketaan rakennuksista. Eli kun koordinaatiopisteet ovat pielessä,
+  myös teiden katunumerot eivät ole paikallaan(?).
 
 # Heuristinen mätsäys kiinteistön sisällä
 
