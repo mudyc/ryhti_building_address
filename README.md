@@ -1,6 +1,10 @@
 # ryhti_building_address
 SyKe Ryhti dataa ja skriptejä validointiin yms
 
+2025-05-13: On ehkä kuudes iteraatio kun kirjoitan näiden käsittelijän uudelleen. 
+Viimein alan hahmottaa mitä haluan ja miten saan sen aikaiseksi. Se on lisäksi riittävän nopea.
+Lisätty jämien vilkuiluun tällainen pikku näkymä https://mudyc.github.io/ryhti_building_address/errors/a.html
+
 # errata tiedostot
 
 Ajettu erilaisia tarkistuksia ryhti datalle.
